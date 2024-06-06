@@ -9,7 +9,7 @@ export default function TaskItem({ task, onToggleTask, onDeleteTask }) {
           onClick={() => onToggleTask(task.id)} 
         >
           <Image
-            src={task.completed ? "/images/box2.svg" : "/images/box1.svg"}
+            src={task.completed ? "/images/box2.png" : "/images/box1.png"}
             alt="Task status"
             width={30}
             height={30}
